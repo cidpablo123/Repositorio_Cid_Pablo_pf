@@ -14,7 +14,7 @@ public class proyectofinaldata {
     public static void  main(String[] args){
     Scanner lectura= new Scanner(System.in);
     String cliente;
-    double compra1, compra2, compra3,tc,pc;
+    double compra1, compra2, compra3,tc,pc,resta;
     
      System.out.print("Ingresar el nombre del cliente: ");
     cliente=lectura.next();
@@ -28,9 +28,12 @@ public class proyectofinaldata {
     
     tc= compra1+compra2+compra3;
     pc=tc/3;
-    
+    resta=compra3-compra2;
     System.out.println("Total de compras: "+tc);
     System.out.println("Promedio compras:"+pc);
-    
+     System.out.println("resta de compra3 con compra2 : "+resta);
+
     }
 }
+
+
